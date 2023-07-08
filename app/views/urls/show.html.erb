@@ -1,0 +1,6 @@
+<h1>Shortened URL</h1>
+
+<p>
+  Long URL: <%= @url.long_url %><br>
+  Short URL: <%= link_to short_url_redirect_url(@url.short_url) %>
+</p>
